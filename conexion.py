@@ -1,3 +1,4 @@
+#en el proyecto antes de comenzar,es necesario instalar: pip install pymysql
 import pymysql
 
 conn = pymysql.connect(
