@@ -1,6 +1,9 @@
 #en el proyecto antes de comenzar,es necesario instalar: pip install pymysql
 import pymysql
 
+#Se debe crear una base de datos llamada "pyhton" y en ella una tabla llamada "usuarios", la que 
+#contiene 6 columnas:nombre, apepat,apemat,rut,edad,sede
+
 conn = pymysql.connect(
     host="localhost",
     user="root",
